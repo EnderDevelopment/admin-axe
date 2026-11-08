@@ -1,0 +1,13 @@
+name: BedrockAxe
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  ascia:
+    description: Gives the Bedrock Axe.
+    usage: /ascia
+    permission: bedrockaxe.give
+permissions:
+  bedrockaxe.give:
+    description: Allows the player to receive the Bedrock Axe.
+    default: op
